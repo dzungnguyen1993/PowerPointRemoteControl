@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		208068AC1B69C8CA00583F26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 208068AB1B69C8CA00583F26 /* AppDelegate.m */; };
+		208068AF1B69C8CA00583F26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 208068AE1B69C8CA00583F26 /* main.m */; };
+		208068B21B69C8CA00583F26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 208068B11B69C8CA00583F26 /* ViewController.m */; };
+		208068B41B69C8CA00583F26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208068B31B69C8CA00583F26 /* Assets.xcassets */; };
+		208068B71B69C8CA00583F26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208068B51B69C8CA00583F26 /* Main.storyboard */; };
+		208068C21B69C8CB00583F26 /* BluetoothMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 208068C11B69C8CB00583F26 /* BluetoothMacTests.m */; };
+		208068CD1B69C8CB00583F26 /* BluetoothMacUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 208068CC1B69C8CB00583F26 /* BluetoothMacUITests.m */; };
+		208068DE1B69C93B00583F26 /* PresentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 208068DD1B69C93B00583F26 /* PresentManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		208068BE1B69C8CB00583F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2080689F1B69C8CA00583F26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 208068A61B69C8CA00583F26;
+			remoteInfo = BluetoothMac;
+		};
+		208068C91B69C8CB00583F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2080689F1B69C8CA00583F26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 208068A61B69C8CA00583F26;
+			remoteInfo = BluetoothMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		208068A71B69C8CA00583F26 /* BluetoothMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		208068AA1B69C8CA00583F26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		208068AB1B69C8CA00583F26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		208068AE1B69C8CA00583F26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		208068B01B69C8CA00583F26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		208068B11B69C8CA00583F26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		208068B31B69C8CA00583F26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		208068B61B69C8CA00583F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		208068B81B69C8CA00583F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208068BD1B69C8CB00583F26 /* BluetoothMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		208068C11B69C8CB00583F26 /* BluetoothMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothMacTests.m; sourceTree = "<group>"; };
+		208068C31B69C8CB00583F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208068C81B69C8CB00583F26 /* BluetoothMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		208068CC1B69C8CB00583F26 /* BluetoothMacUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothMacUITests.m; sourceTree = "<group>"; };
+		208068CE1B69C8CB00583F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208068DC1B69C93B00583F26 /* PresentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentManager.h; sourceTree = "<group>"; };
+		208068DD1B69C93B00583F26 /* PresentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentManager.m; sourceTree = "<group>"; };
+		208068DF1B69C9AD00583F26 /* SERVICES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SERVICES.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		208068A41B69C8CA00583F26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208068BA1B69C8CB00583F26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208068C51B69C8CB00583F26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2080689E1B69C8CA00583F26 = {
+			isa = PBXGroup;
+			children = (
+				208068A91B69C8CA00583F26 /* BluetoothMac */,
+				208068C01B69C8CB00583F26 /* BluetoothMacTests */,
+				208068CB1B69C8CB00583F26 /* BluetoothMacUITests */,
+				208068A81B69C8CA00583F26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		208068A81B69C8CA00583F26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				208068A71B69C8CA00583F26 /* BluetoothMac.app */,
+				208068BD1B69C8CB00583F26 /* BluetoothMacTests.xctest */,
+				208068C81B69C8CB00583F26 /* BluetoothMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		208068A91B69C8CA00583F26 /* BluetoothMac */ = {
+			isa = PBXGroup;
+			children = (
+				208068AA1B69C8CA00583F26 /* AppDelegate.h */,
+				208068AB1B69C8CA00583F26 /* AppDelegate.m */,
+				208068B01B69C8CA00583F26 /* ViewController.h */,
+				208068B11B69C8CA00583F26 /* ViewController.m */,
+				208068B31B69C8CA00583F26 /* Assets.xcassets */,
+				208068B51B69C8CA00583F26 /* Main.storyboard */,
+				208068B81B69C8CA00583F26 /* Info.plist */,
+				208068AD1B69C8CA00583F26 /* Supporting Files */,
+				208068DC1B69C93B00583F26 /* PresentManager.h */,
+				208068DD1B69C93B00583F26 /* PresentManager.m */,
+				208068DF1B69C9AD00583F26 /* SERVICES.h */,
+			);
+			path = BluetoothMac;
+			sourceTree = "<group>";
+		};
+		208068AD1B69C8CA00583F26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				208068AE1B69C8CA00583F26 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		208068C01B69C8CB00583F26 /* BluetoothMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				208068C11B69C8CB00583F26 /* BluetoothMacTests.m */,
+				208068C31B69C8CB00583F26 /* Info.plist */,
+			);
+			path = BluetoothMacTests;
+			sourceTree = "<group>";
+		};
+		208068CB1B69C8CB00583F26 /* BluetoothMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				208068CC1B69C8CB00583F26 /* BluetoothMacUITests.m */,
+				208068CE1B69C8CB00583F26 /* Info.plist */,
+			);
+			path = BluetoothMacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		208068A61B69C8CA00583F26 /* BluetoothMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 208068D11B69C8CB00583F26 /* Build configuration list for PBXNativeTarget "BluetoothMac" */;
+			buildPhases = (
+				208068A31B69C8CA00583F26 /* Sources */,
+				208068A41B69C8CA00583F26 /* Frameworks */,
+				208068A51B69C8CA00583F26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothMac;
+			productName = BluetoothMac;
+			productReference = 208068A71B69C8CA00583F26 /* BluetoothMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		208068BC1B69C8CB00583F26 /* BluetoothMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 208068D41B69C8CB00583F26 /* Build configuration list for PBXNativeTarget "BluetoothMacTests" */;
+			buildPhases = (
+				208068B91B69C8CB00583F26 /* Sources */,
+				208068BA1B69C8CB00583F26 /* Frameworks */,
+				208068BB1B69C8CB00583F26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				208068BF1B69C8CB00583F26 /* PBXTargetDependency */,
+			);
+			name = BluetoothMacTests;
+			productName = BluetoothMacTests;
+			productReference = 208068BD1B69C8CB00583F26 /* BluetoothMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		208068C71B69C8CB00583F26 /* BluetoothMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 208068D71B69C8CB00583F26 /* Build configuration list for PBXNativeTarget "BluetoothMacUITests" */;
+			buildPhases = (
+				208068C41B69C8CB00583F26 /* Sources */,
+				208068C51B69C8CB00583F26 /* Frameworks */,
+				208068C61B69C8CB00583F26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				208068CA1B69C8CB00583F26 /* PBXTargetDependency */,
+			);
+			name = BluetoothMacUITests;
+			productName = BluetoothMacUITests;
+			productReference = 208068C81B69C8CB00583F26 /* BluetoothMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2080689F1B69C8CA00583F26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = DungNT50;
+				TargetAttributes = {
+					208068A61B69C8CA00583F26 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					208068BC1B69C8CB00583F26 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 208068A61B69C8CA00583F26;
+					};
+					208068C71B69C8CB00583F26 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 208068A61B69C8CA00583F26;
+					};
+				};
+			};
+			buildConfigurationList = 208068A21B69C8CA00583F26 /* Build configuration list for PBXProject "BluetoothMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2080689E1B69C8CA00583F26;
+			productRefGroup = 208068A81B69C8CA00583F26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				208068A61B69C8CA00583F26 /* BluetoothMac */,
+				208068BC1B69C8CB00583F26 /* BluetoothMacTests */,
+				208068C71B69C8CB00583F26 /* BluetoothMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		208068A51B69C8CA00583F26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208068B41B69C8CA00583F26 /* Assets.xcassets in Resources */,
+				208068B71B69C8CA00583F26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208068BB1B69C8CB00583F26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208068C61B69C8CB00583F26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		208068A31B69C8CA00583F26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208068B21B69C8CA00583F26 /* ViewController.m in Sources */,
+				208068AF1B69C8CA00583F26 /* main.m in Sources */,
+				208068AC1B69C8CA00583F26 /* AppDelegate.m in Sources */,
+				208068DE1B69C93B00583F26 /* PresentManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208068B91B69C8CB00583F26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208068C21B69C8CB00583F26 /* BluetoothMacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208068C41B69C8CB00583F26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208068CD1B69C8CB00583F26 /* BluetoothMacUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		208068BF1B69C8CB00583F26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 208068A61B69C8CA00583F26 /* BluetoothMac */;
+			targetProxy = 208068BE1B69C8CB00583F26 /* PBXContainerItemProxy */;
+		};
+		208068CA1B69C8CB00583F26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 208068A61B69C8CA00583F26 /* BluetoothMac */;
+			targetProxy = 208068C91B69C8CB00583F26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		208068B51B69C8CA00583F26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				208068B61B69C8CA00583F26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		208068CF1B69C8CB00583F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		208068D01B69C8CB00583F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		208068D21B69C8CB00583F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BluetoothMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DungNT50.BluetoothMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		208068D31B69C8CB00583F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BluetoothMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DungNT50.BluetoothMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		208068D51B69C8CB00583F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BluetoothMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DungNT50.BluetoothMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluetoothMac.app/Contents/MacOS/BluetoothMac";
+			};
+			name = Debug;
+		};
+		208068D61B69C8CB00583F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BluetoothMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DungNT50.BluetoothMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluetoothMac.app/Contents/MacOS/BluetoothMac";
+			};
+			name = Release;
+		};
+		208068D81B69C8CB00583F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BluetoothMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DungNT50.BluetoothMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BluetoothMac;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		208068D91B69C8CB00583F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BluetoothMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DungNT50.BluetoothMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BluetoothMac;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		208068A21B69C8CA00583F26 /* Build configuration list for PBXProject "BluetoothMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208068CF1B69C8CB00583F26 /* Debug */,
+				208068D01B69C8CB00583F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		208068D11B69C8CB00583F26 /* Build configuration list for PBXNativeTarget "BluetoothMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208068D21B69C8CB00583F26 /* Debug */,
+				208068D31B69C8CB00583F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		208068D41B69C8CB00583F26 /* Build configuration list for PBXNativeTarget "BluetoothMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208068D51B69C8CB00583F26 /* Debug */,
+				208068D61B69C8CB00583F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		208068D71B69C8CB00583F26 /* Build configuration list for PBXNativeTarget "BluetoothMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208068D81B69C8CB00583F26 /* Debug */,
+				208068D91B69C8CB00583F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2080689F1B69C8CA00583F26 /* Project object */;
+}
